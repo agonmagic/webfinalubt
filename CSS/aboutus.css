@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background-color: #E7F6F2;
+}
+
+header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070f2b;
+    max-width: 100%;
+}
+
+header img {
+    margin: 5px 30px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+li {
+    margin: 0 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    color: #FB2576;
+}
+
+#reg {
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #FB2576;
+}
+
+#reg:hover {
+    border: 2px solid white;
+    padding: 8px 18px;
+}
+
+footer {
+    background-color: #070f2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    color: white;
+}
+
+.social-icons i:hover {
+    color: #FB2576;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.copyright{
+    margin: 10px 0;
+}
+
+container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px){
+    container, .location{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .foto img{
+        width: 100%;
+    }
+
+    header{
+        max-width: 100%;
+    }
+
+    iframe, .location{
+        margin-top: 10px;
+    }
+
+    .info{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li{
+        margin: 0 5px;
+    }
+
+    #reg{
+        margin-right: 10px;
+    }
+
+    header img{
+        margin-left: 10px;
+    }
+
+    #regj{
+        width: 100%;
+    }
+}

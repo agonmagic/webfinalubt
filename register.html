@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/Images/CoderLogo.png">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img src="/Images/CoderLogo.png" alt="Logo" width="75px"></a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#" id="reg">Register</a></li>
+        </ul>
+    </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="lajmerimi">
+            <span class="lajmi">KURRË NUK ËSHTË VONË TË MËSONI KODIM!</span>
+        </div>
+        <form action="#" method="" onsubmit="verify()">
+            <div>
+                <label for="emri">Emri dhe Mbiemri:</label>
+                <input type="text" id="emri" name="emri" placeholder="Filan Fisteku">
+            </div>
+            <div>
+                <label for="ditelindja">Ditëlindja:</label>
+                <input type="text" id="ditelindja" name="ditelindja" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="DD/MM/YYYY">
+            </div>
+            <div>
+                <label for="gjinia">Gjinia:</label>
+                <select id="gjinia" name="gjinia">
+                    <option value="">Zgjedh...</option>
+                    <option value="Mashkull">Mashkull</option>
+                    <option value="Femer">Femër</option>
+                    <option value="Tjeter">Tjetër</option>
+                </select>
+            </div>
+            <div>
+                <label for="city">Qyteti:</label>
+                <select id="city" name="city">
+                    <option value="">Zgjedh...</option>
+                    <option value="Prishtinë">Prishtinë</option>
+                    <option value="Mitrovicë">Mitrovicë</option>
+                    <option value="Pejë">Pejë</option>
+                    <option value="Prizren">Prizren</option>
+                    <option value="Ferizaj">Ferizaj</option>
+                    <option value="Gjilan">Gjilan</option>
+                    <option value="Gjakovë">Gjakovë</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <button type="submit">REGJISTROHU</button>
+            </div>
+        </form>
+    </body>
+    <footer>
+        <span class="name">Coders Academy</span>
+        <p>Rr. Rifat Burdzevic, Bregu i Diellit, Prishtine</p>
+        <p>+383 49 600 567</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jCodersEdu" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/akademia.jcoders/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/AgonGashi" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </div>
+        <p class="copyright">&copy;All right reserved by Agon Gashi</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
